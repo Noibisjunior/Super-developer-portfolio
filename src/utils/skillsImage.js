@@ -34,6 +34,7 @@ import memsql from '../assets/svg/skills/memsql.svg'
 import mongoDB from '../assets/svg/skills/mongoDB.svg'
 import mysql from '../assets/svg/skills/mysql.svg'
 import nextJS from '../assets/svg/skills/nextJS.svg'
+import node from '../assets/svg/skills/no.png'
 import nginx from '../assets/svg/skills/nginx.svg'
 import numpy from '../assets/svg/skills/numpy.svg'
 import nuxtJS from '../assets/svg/skills/nuxtJS.svg'
@@ -53,7 +54,7 @@ import swift from '../assets/svg/skills/swift.svg'
 import tailwind from '../assets/svg/skills/tailwind.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import typescript from '../assets/svg/skills/typescript.svg'
-import vitejs from '../assets/svg/skills/vitejs.svg'
+import vite from '../assets/svg/skills/vite1.svg'
 import vue from '../assets/svg/skills/vue.svg'
 import vuetifyjs from '../assets/svg/skills/vuetifyjs.svg'
 import webix from '../assets/svg/skills/webix.svg'
@@ -129,8 +130,8 @@ export const skillsImage = (skill) => {
             return postgresql;
         case 'tailwind':
             return tailwind;
-        case 'vitejs':
-            return vitejs;
+        case 'vite':
+            return vite;
         case 'vuetifyjs':
             return vuetifyjs;
         case 'c':
@@ -163,6 +164,8 @@ export const skillsImage = (skill) => {
             return adobeaudition;
         case 'aws':
             return aws;
+        case 'nodeJS' :
+            return node;
         case 'deno':
             return deno;
         case 'django':

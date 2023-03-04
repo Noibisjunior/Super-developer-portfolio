@@ -1,37 +1,40 @@
-import eight from '../assets/svg/projects/eight.svg'
+import eight from '../assets/svg/projects/est.jpg'
 import seven from '../assets/svg/projects/seven.svg'
 import six from '../assets/svg/projects/six.svg'
 
 
 export const projectsData = [
-    {
-        id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
-        image: six
-    },
-    {
-        id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
-        image: seven
-    },
-    {
-        id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
-        image: eight
-    }
-]
+  {
+    id: 1,
+    projectName: 'NoibisDev',
+    projectDesc:
+      'This project is a blogging site built with Nextjs and Boostrap .',
+    tags: ['Mdx', 'NextJs', 'BootStrap'],
+    code: 'https://github.com/Noibisjunior/Noibisblog',
+    demo: 'https://noibisdev.vercel.app/',
+    image: six,
+  },
+  {
+    id: 2,
+    projectName: 'Online Coding Bootcamp',
+    projectDesc:
+      'This project is an online Coding Bootcamp built with the MVC Architecture.',
+    tags: ['Nodejs', 'Express', 'HandleBars', 'MongoDB', 'BootStrap'],
+    code: 'https://github.com/Noibisjunior/FULLSTACK-WEB-APPLICATION',
+    demo: 'https://noibis-dev.cyclic.app/',
+    image: seven,
+  },
+  {
+    id: 3,
+    projectName: 'A Real Estate Web Application',
+    projectDesc:
+      'A real estate web application is an online platform designed to facilitate the buying, selling, renting, and management of real estate properties. Such a platform typically provides a variety of features and tools that help users find the properties they are looking for, compare prices and features, and connect with real estate agents or property owners.',
+    tags: ['ReactJS,Firebase,TailwindCSS'],
+    code: 'https://github.com/Noibisjunior/Estate-React-web-app',
+    demo: 'https://estate-react-web-app.vercel.app/',
+    image: eight,
+  },
+];
 
 
 // Do not remove any fields.

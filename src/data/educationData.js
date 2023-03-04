@@ -1,23 +1,16 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Noakhali Government College',
-        course: 'Bachelor Degree',
-        startYear: '2020',
+        institution: 'Federal University of Technology Minna',
+        course: 'Bachelor Degree in Computer Science',
+        startYear: '2022',
         endYear: 'Present'
     },
     {
         id: 2,
-        institution: 'Noakhali Islamia Kamil Madrasah',
+        institution: 'Vocational Enterprise Institute of Technology',
         course: 'Higher Secondary',
-        startYear: '2018',
-        endYear: '2020'
-    },
-    {
-        id: 3,
-        institution: 'Baitus Saif Islamia Madrasah',
-        course: 'Secondary School',
-        startYear: '2008',
+        startYear: '2015',
         endYear: '2018'
-    },
+    }
 ]
