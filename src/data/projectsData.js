@@ -6,23 +6,23 @@ import six from '../assets/svg/projects/six.svg'
 export const projectsData = [
   {
     id: 1,
-    projectName: 'NoibisDev',
+    projectName: 'A FinTech Platform',
     projectDesc:
-      'This project is a blogging site built with Nextjs and Boostrap .',
-    tags: ['Mdx', 'NextJs', 'BootStrap'],
-    code: 'https://github.com/Noibisjunior/Noibisblog',
-    demo: 'https://noibisdev.vercel.app/',
-    image: six,
+      'GenzPay is a comprehensive, modern financial technology platform built with a full-stack architecture. It provides users with powerful tools for digital wallet management, invoice creation, virtual card services, and seamless transaction handling. The platform combines a robust Node.js backend with a sleek Vue.js frontend to deliver a professional banking experience.',
+    tags: ['VueJS,ExpressJS,MongoDB'],
+    code: 'https://github.com/Noibisjunior/GenzPay-FinTech-Project',
+    demo: 'https://genzpay-w86e.onrender.com/',
+    image: eight,
   },
   {
     id: 2,
-    projectName: 'Online Coding Bootcamp',
+    projectName: 'Rekindle',
     projectDesc:
-      'This project is an online Coding Bootcamp built with the MVC Architecture.',
-    tags: ['Nodejs', 'Express', 'HandleBars', 'MongoDB', 'BootStrap'],
-    code: 'https://github.com/Noibisjunior/FULLSTACK-WEB-APPLICATION',
-    demo: 'https://noibis-dev.cyclic.app/',
-    image: seven,
+      'Rekindle is a robust TypeScript-based backend API for managing professional connections, built with Express.js, MongoDB, and Redis (BullMQ). It provides secure authentication, dynamic QR code generation, comprehensive user profile management with image uploads, and a sophisticated reminder system to foster meaningful professional relationships.',
+    tags: ['ReactJS,TypeScript,Express,MongoDB'],
+    code: 'https://github.com/Noibisjunior/Rekindle',
+    demo: '',
+    image: eight,
   },
   {
     id: 3,
@@ -33,6 +33,26 @@ export const projectsData = [
     code: 'https://github.com/Noibisjunior/Estate-React-web-app',
     demo: 'https://estate-react-web-app.vercel.app/',
     image: eight,
+  },
+  {
+    id: 4,
+    projectName: 'NoibisDev',
+    projectDesc:
+      'This project is a blogging site built with Nextjs and Boostrap .',
+    tags: ['Mdx', 'NextJs', 'BootStrap'],
+    code: 'https://github.com/Noibisjunior/Noibisblog',
+    demo: 'https://noibisdev.vercel.app/',
+    image: six,
+  },
+  {
+    id: 5,
+    projectName: 'Online Coding Bootcamp',
+    projectDesc:
+      'This project is an online Coding Bootcamp built with the MVC Architecture.',
+    tags: ['Nodejs', 'Express', 'HandleBars', 'MongoDB', 'BootStrap'],
+    code: 'https://github.com/Noibisjunior/FULLSTACK-WEB-APPLICATION',
+    demo: 'https://noibis-dev.cyclic.app/',
+    image: seven,
   },
 ];
 

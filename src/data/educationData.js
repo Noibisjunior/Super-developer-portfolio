@@ -2,14 +2,14 @@ export const educationData = [
     {
         id: 1,
         institution: 'Federal University of Technology Minna',
-        course: 'Bachelor Degree in Computer Science',
+        course: 'BTECH, Computer Science',
         startYear: '2022',
-        endYear: 'Present'
+        endYear: '2026'
     },
     {
         id: 2,
         institution: 'Vocational Enterprise Institute of Technology',
-        course: 'Higher Secondary',
+        course: 'High School',
         startYear: '2015',
         endYear: '2018'
     }
