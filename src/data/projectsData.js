@@ -1,6 +1,8 @@
 import eight from '../assets/svg/projects/est.jpg'
 import seven from '../assets/svg/projects/seven.svg'
 import six from '../assets/svg/projects/six.svg'
+import ten from '../assets/svg/projects/finPay.png'
+import nine from '../assets/svg/projects/rekindle.png'
 
 
 export const projectsData = [
@@ -8,11 +10,11 @@ export const projectsData = [
     id: 1,
     projectName: 'A FinTech Platform',
     projectDesc:
-      'GenzPay is a comprehensive, modern financial technology platform built with a full-stack architecture. It provides users with powerful tools for digital wallet management, invoice creation, virtual card services, and seamless transaction handling. The platform combines a robust Node.js backend with a sleek Vue.js frontend to deliver a professional banking experience.',
+      'FinPay is a comprehensive, modern financial technology platform built with a full-stack architecture. It provides users with powerful tools for digital wallet management, invoice creation, virtual card services, and seamless transaction handling. The platform combines a robust Node.js backend with a sleek Vue.js frontend to deliver a professional banking experience.',
     tags: ['VueJS,ExpressJS,MongoDB'],
     code: 'https://github.com/Noibisjunior/GenzPay-FinTech-Project',
     demo: 'https://genzpay-w86e.onrender.com/',
-    image: eight,
+    image: ten,
   },
   {
     id: 2,
@@ -21,8 +23,8 @@ export const projectsData = [
       'Rekindle is a robust TypeScript-based backend API for managing professional connections, built with Express.js, MongoDB, and Redis (BullMQ). It provides secure authentication, dynamic QR code generation, comprehensive user profile management with image uploads, and a sophisticated reminder system to foster meaningful professional relationships.',
     tags: ['ReactJS,TypeScript,Express,MongoDB'],
     code: 'https://github.com/Noibisjunior/Rekindle',
-    demo: '',
-    image: eight,
+    demo: 'https://frontend-service-8sxa.onrender.com',
+    image: nine,
   },
   {
     id: 3,
