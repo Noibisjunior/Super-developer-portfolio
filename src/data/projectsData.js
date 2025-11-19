@@ -71,5 +71,4 @@ export const projectsData = [
     code: '',
     demo: '',
     image: ''
-}, 
-*/
+}, */
